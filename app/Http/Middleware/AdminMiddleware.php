@@ -11,8 +11,8 @@ class AdminMiddleware
     public function handle($request, Closure $next)
     {
         return Redirect::route('login')->withErrors(['alert' => 'Você precisa estar logado como administrador para acessar essa página']);
-
-
+asdgsdfgasd
+fgasdgasd
         // Verifique aqui se o usuário é um administrador e faça o redirecionamento caso necessário
 
         return $next($request);
